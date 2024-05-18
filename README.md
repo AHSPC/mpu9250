@@ -1,3 +1,7 @@
+NOTE: you should probably use the original repo. I only forked this to make a couple quick
+modifications and not loose track of them. They are not intended for upstreaming
+and this repo will not be kept up to date.
+
 # MPU9250 for MicroPython on the Raspberry Pi Pico
 For more information, robotics projects and tutorials visit <www.smarsfan.com>
 
