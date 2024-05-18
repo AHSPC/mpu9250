@@ -51,7 +51,7 @@ def degrees_to_heading(degrees):
         heading = "NW"
     return heading
 
-def get_reading()->float:
+def get_reading() -> tuple:
     ''' Returns the readings from the sensor '''
     global filtered_y_value, filtered_x_value
     x = m.acceleration[0] 
