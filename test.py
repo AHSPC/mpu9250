@@ -2,19 +2,16 @@
 # Kevin McAleer
 # May 2021
 
-from machine import I2C, Pin
+from machine import SoftI2C, Pin
 from math import sqrt, atan2, pi, copysign, sin, cos
 from mpu9250 import MPU9250
 from time import sleep
 
 # addresses 
 MPU = 0x68
-id = 0
-sda = Pin(0)
-scl = Pin(1)
 
 # create the I2C
-i2c = I2C(id=id, scl=scl, sda=sda)
+i2c = SoftI2C(scl=Pin(1), sda=Pin(0))
 
 # Scan the bus
 print(i2c.scan())
