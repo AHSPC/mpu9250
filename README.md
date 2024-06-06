@@ -14,7 +14,7 @@ The ak8963 provides the magnetometer measurements.
 
 ---
 
-`test.py` is a simple test program to show current telemetry data from the sensor
+`test.py` is a test program to show current telemetry data from the sensor
 
 `simple_test.py` is a simpler test program
 
