@@ -67,7 +67,7 @@ class MPU9250:
         try:
             return self.mpu6500.acceleration
         except OSError as e:
-            print(str(e))
+            #print(str(e))
             return self.acceleration
 
     @property
@@ -80,7 +80,7 @@ class MPU9250:
         try:
             return self.mpu6500.gyro
         except OSError as e:
-            print(str(e))
+            #print(str(e))
             return self.gyro
 
     @property
@@ -91,7 +91,7 @@ class MPU9250:
         try:
             return self.mpu6500.temperature
         except OSError as e:
-            print(str(e))
+            #print(str(e))
             return self.temperature
 
     @property
@@ -102,7 +102,7 @@ class MPU9250:
         try:
             return self.ak8963.magnetic
         except OSError as e:
-            print(str(e))
+            #print(str(e))
             return self.magnetic
 
     @property
