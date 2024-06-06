@@ -1,4 +1,4 @@
-# Simply.py - a simple MPU9250 demo app
+# test.py - a simple MPU9250 demo app
 # Kevin McAleer
 # May 2021
 
